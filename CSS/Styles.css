@@ -1,93 +1,113 @@
 ﻿:root {
-    font-family: system-ui, Arial, sans-serif;
+    --color-principal: #162B4E;
+    --color-secundario: #4470bb;
+    --color-fondo: #f0f0f0fb;
+    --color-texto-oscuro: #28292c;
+    --color-blanco: #ffffff;
+    --fuente-sistema: system-ui, Arial, sans-serif;
 }
 
 body {
+    font-family: var(--fuente-sistema);
+    background-color: var(--color-fondo);
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: #f0f0f0fb
 }
 
 h1,
 h2 {
-    color: #162B4E;
+    color: var(--color-principal);
     text-align: center;
     font-size: 50px;
 }
 
 h2.Blanco {
-    color: #ffffff;
+    color: var(--color-blanco);
     text-align: center;
     font-size: 50px;
 }
 
 h3 {
-    color: #162B4E;
-    font-size: 20px;
+    color: var(--color-principal);
+    font-size: 25px;
 }
 
 h3.Blanco {
-    color: #ffffff;
+    color: var(--color-blanco);
     font-size: 20px;
     text-align: center;
 }
 
 h4 {
-    color: #162B4E;
+    color: var(--color-principal);
     font-size: 15px;
     text-align: left;
 }
 
 p.SeccionAzul {
-    color: #ffffff;
+    color: var(--color-blanco);
     font-size: 20px;
 }
 
 p.SeccionBlanca {
-    color: #28292c;
+    color: var(--color-texto-oscuro);
     font-size: 20px;
 }
 
+p {
+    color: var(--color-texto-oscuro);
+    font-size: 18px;
+}
+
 #Comprar {
-    background-color: #162B4E;
-    color: white;
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
     border-radius: 15px;
     padding: 15px 25px;
     font-size: 30px;
-    border-color: #ffffff;
+    border-color: var(--color-blanco);
 }
 
 #Comprar:hover {
-    background-color: #4470bb;
-    color: white;
+    background-color: var(--color-secundario);
+    color: var(--color-blanco);
 }
 
 #Buscar {
-    background-color: #162B4E;
-    color: white;
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
     border-radius: 15px;
     padding: 15px 25px;
     font-size: 15px;
-    border-color: #ffffff;
+    border-color: var(--color-blanco);
 }
 
 #Buscar:hover {
-    background-color: #4470bb;
-    color: white;
+    background-color: var(--color-secundario);
+    color: var(--color-blanco);
 }
 
 header {
-    background-color: #162B4E;
-    color: white;
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
     padding: 10px;
     border-radius: 30px;
     margin-top: 10px;
 }
 
+section#Galeria {
+    border-radius: 30px;
+    border-color: var(--color-principal);
+    border-width: 4px;
+    border-style: solid;
+    display: flex;
+}
+
 section#Especificaciones {
-    background-color: #162B4E;
-    color: white;
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
     padding: 10px;
     margin-top: 20px;
     border-radius: 30px;
@@ -99,8 +119,8 @@ section#Comentarios {
 }
 
 aside {
-    background-color: #162B4E;
-    color: white;
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
     padding: 10px;
     margin-top: 50px;
     border-radius: 30px;
@@ -108,7 +128,7 @@ aside {
 }
 
 section#Productos {
-    padding: 10px;
+    padding: 20px;
     margin-top: 10px;
     justify-content: space-between;
     width: 100%;
@@ -116,9 +136,14 @@ section#Productos {
 
 section#Productos img {
     border-radius: 35px;
-    border-color: #ffffff;
+    border-color: var(--color-blanco);
     border-width: 5px;
     border-style: solid;
+    padding: 20px;
+}
+
+section#Productos img#Airtag {
+    margin-right: 40px !important;
 }
 
 div.columna {
@@ -126,7 +151,8 @@ div.columna {
     border-radius: 30px;
     margin-left: 10px;
     margin-right: 10px;
-    border-color: #162B4E;
+    border-color: var(--color-principal);
     border-width: 2px;
     border-style: solid;
+    margin-bottom: 20px;
 }
