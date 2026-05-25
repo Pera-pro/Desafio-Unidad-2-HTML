@@ -1,0 +1,133 @@
+:root {
+    font-family: system-ui, Arial, sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #f0f0f0fb
+}
+
+h1,
+h2 {
+    color: #162B4E;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2.Blanco {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+    color: #162B4E;
+    font-size: 20px;
+}
+
+h3.Blanco {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+h4 {
+    color: #162B4E;
+    font-size: 15px;
+    text-align: left;
+}
+
+p.SeccionAzul {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+p.SeccionBlanca {
+    color: #28292c;
+    font-size: 20px;
+}
+
+#Comprar {
+    background-color: #162B4E;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 25px;
+    font-size: 30px;
+    border-color: #ffffff;
+}
+
+#Comprar:hover {
+    background-color: #4470bb;
+    color: white;
+}
+
+#Buscar {
+    background-color: #162B4E;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 25px;
+    font-size: 15px;
+    border-color: #ffffff;
+}
+
+#Buscar:hover {
+    background-color: #4470bb;
+    color: white;
+}
+
+header {
+    background-color: #162B4E;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+section#Especificaciones {
+    background-color: #162B4E;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+section#Comentarios {
+    padding: 10px;
+    margin-top: 40px;
+}
+
+aside {
+    background-color: #162B4E;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 30px;
+    margin-bottom: 35px;
+}
+
+section#Productos {
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section#Productos img {
+    border-radius: 35px;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: solid;
+}
+
+div.columna {
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: #162B4E;
+    border-width: 2px;
+    border-style: solid;
+}
